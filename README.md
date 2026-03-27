@@ -62,7 +62,6 @@ npm start
 
 ## 📸 Screenshots
 
-*(Add screenshots here — don’t skip this if you want your repo to look serious)*
 <img width="1897" height="963" alt="image" src="https://github.com/user-attachments/assets/189040d8-539b-4b51-899b-dec326bb2133" />
 <img width="1897" height="959" alt="image" src="https://github.com/user-attachments/assets/1444df3f-3cc0-486f-960b-39cab72e08b4" />
 <img width="1887" height="962" alt="image" src="https://github.com/user-attachments/assets/2e7cf3b9-71ca-4993-a35d-2e8fdfe1f051" />
