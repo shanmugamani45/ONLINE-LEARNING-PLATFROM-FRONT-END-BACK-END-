@@ -23,8 +23,8 @@ An interactive online learning platform designed to provide users with structure
 ## 🛠️ Tech Stack
 
 * **Frontend:** HTML, CSS, JavaScript
-* **Backend:** (Assumed) Python / Flask or Node.js *(you didn’t specify — fix this)*
-* **Database:** (Assumed) SQLite / MongoDB
+* **Backend:** Python / Flask or Node.js
+* **Database:** Neon
 * **Deployment:** Render
 
 ---
