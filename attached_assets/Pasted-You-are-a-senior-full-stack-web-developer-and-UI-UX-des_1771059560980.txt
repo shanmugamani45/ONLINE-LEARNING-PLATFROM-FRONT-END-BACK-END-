@@ -1,0 +1,163 @@
+You are a senior full-stack web developer and UI/UX designer. Build a complete, production-ready Online Learning Platform with advanced animations, vibrant modern design, reusable components, and clean architecture.
+
+Tech Stack Requirements:
+Frontend: React (Vite) + Tailwind CSS + Framer Motion
+Backend: Node.js + Express
+Database: MongoDB (with Mongoose)
+Accessibility: ARIA roles, keyboard navigation, semantic HTML
+State Management: React Context API
+Animations: Smooth page transitions, hover micro-interactions, modal animations, accordion transitions
+
+Project Structure:
+client/ (React + Tailwind + Framer Motion)
+server/ (Express + MongoDB API)
+
+Core Pages:
+
+Home Page
+
+Courses Page (search + filter)
+
+Course Details Page
+
+Instructors Page
+
+FAQ Page (accordion style)
+
+Contact Page
+
+Design Expectations:
+
+Vibrant, modern UI with gradient backgrounds and glassmorphism cards
+
+Smooth transitions between pages
+
+Animated hero section with call-to-action
+
+Hover effects on cards and buttons
+
+Reusable UI components (Navbar, Footer, CourseCard, Modal, Accordion)
+
+Responsive design (mobile + tablet + desktop)
+
+Dark mode toggle with animated transition
+
+Functional Requirements:
+
+Home Page:
+
+Animated hero banner introducing platform
+
+Featured courses carousel with enroll buttons
+
+CTA section with subtle motion effects
+
+Courses Page:
+
+Display course cards (title, instructor, rating, category, price)
+
+Search bar (live filter)
+
+Category filter dropdown
+
+Each card includes:
+
+Enroll button
+
+Preview button (opens modal popup with animation)
+
+Smooth card hover animations and shadow elevation
+
+Course Details Page:
+
+Dynamic routing using course ID
+
+Show full course description, syllabus, instructor info
+
+Animated section reveal on scroll
+
+Enroll button (connect to backend API)
+
+Instructors Page:
+
+Grid of instructor profiles with animated hover overlays
+
+Show name, expertise, short bio
+
+FAQ Page:
+
+Accordion-style FAQ with smooth expand/collapse animations
+
+Keyboard accessible
+
+Only one open at a time
+
+Contact Page:
+
+Form with name, email, message
+
+Client-side validation
+
+Submit to backend API and store in MongoDB
+
+Show success toast notification animation
+
+Backend Requirements:
+
+RESTful APIs:
+GET /api/courses
+GET /api/courses/:id
+POST /api/enroll
+GET /api/instructors
+POST /api/contact
+
+MongoDB schemas: Course, Instructor, Enrollment, ContactMessage
+
+Seed sample data automatically on first run
+
+Advanced UX Requirements:
+
+Page transition animations using Framer Motion
+
+Modal popup with blur background and scale animation
+
+Smooth accordion animation using height transitions
+
+Accessible focus states and tab navigation
+
+Lazy loading for images
+
+Skeleton loaders while fetching data
+
+Component Reusability:
+Create reusable components:
+
+Navbar with animated underline hover
+
+Footer with gradient theme
+
+CourseCard
+
+ModalPreview
+
+AccordionItem
+
+SearchBar
+
+FilterDropdown
+
+DarkModeToggle
+
+Other Requirements:
+
+Clean folder structure
+
+Environment variables for API URL and MongoDB
+
+README with run instructions
+
+Fully working without external paid services
+
+Unique vibrant color palette (neon gradients, modern glass UI)
+
+No placeholder UI; fully styled and animated
